@@ -1,0 +1,58 @@
+[
+    {
+        "timestamp": "2026-11-21T09:00:12",
+        "level": "INFO",
+        "service": "auth-service",
+        "message": "User 'rajeswar' authenticated successfully",
+        "response_time_ms": 42
+    },
+    {
+        "timestamp": "2026-11-21T09:03:45",
+        "level": "INFO",
+        "service": "api-gateway",
+        "message": "GET /api/v1/dashboard 200 OK",
+        "response_time_ms": 68
+    },
+    {
+        "timestamp": "2026-11-21T09:07:19",
+        "level": "WARNING",
+        "service": "cache-service",
+        "message": "Redis memory usage reached 82% threshold",
+        "response_time_ms": 115
+    },
+    {
+        "timestamp": "2026-11-21T09:12:04",
+        "level": "ERROR",
+        "service": "payment-service",
+        "message": "Upstream gateway timeout after 3000ms",
+        "response_time_ms": 3005
+    },
+    {
+        "timestamp": "2026-11-21T09:15:30",
+        "level": "INFO",
+        "service": "api-gateway",
+        "message": "POST /api/v1/orders 201 Created",
+        "response_time_ms": 94
+    },
+    {
+        "timestamp": "2026-11-21T09:18:51",
+        "level": "CRITICAL",
+        "service": "db-cluster",
+        "message": "Primary database connection pool exhausted",
+        "response_time_ms": 5012
+    },
+    {
+        "timestamp": "2026-11-21T09:22:10",
+        "level": "ERROR",
+        "service": "auth-service",
+        "message": "Invalid JWT signature detected from IP 192.168.1.44",
+        "response_time_ms": 19
+    },
+    {
+        "timestamp": "2026-11-21T09:25:00",
+        "level": "WARNING",
+        "service": "api-gateway",
+        "message": "Rate limit approaching for client token #884",
+        "response_time_ms": 81
+    }
+]

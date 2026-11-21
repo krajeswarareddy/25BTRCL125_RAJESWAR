@@ -1,0 +1,4 @@
+emp_id,name,department,basic_salary,hra,allowances,tax_percent
+EMP101,Ananya Rao,Engineering,60000,18000,7000,10
+EMP102,Karthik Reddy,Data Science,75000,22500,9500,12
+EMP103,Meera Nair,Operations,48000,14400,5600,8
